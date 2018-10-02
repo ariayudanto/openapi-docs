@@ -1,0 +1,58 @@
+curl -X GET "http://api.mbiz.loc/carts/1829?query%5Bwith%5D%5B%5D=cart_items" -H  "accept: application/json" -H  "AccessToken: 50008fc2f580d8d6365311696163fbf9" -H  "App-Id: broodmother" -H  "User-Type: 1" -H  "User-Id: 1"
+
+Response 200 OK
+
+{
+    "id": 1829,
+    "title": "BANTEN CART",
+    "user_buyer_id": 149,
+    "company_buyer_id": "14",
+    "company_shipping_address_id": 128,
+    "status": 0,
+    "created_at": "2018-09-18T11:10:03+00:00",
+    "updated_at": "2018-09-18T11:10:03+00:00",
+    "cart_items": [
+      {
+        "id": 9100,
+        "cart_id": 1829,
+        "company_buyer_id": "14",
+        "company_seller_id": "19",
+        "company_product_id": 439,
+        "sku_id": "88",
+        "budget_id": "0",
+        "shipment_type": "1",
+        "qty": 1,
+        "base_price": "190909.09",
+        "price": 212100,
+        "discount": null,
+        "shipping_cost_id": "0",
+        "status": 0,
+        "created_at": "2018-09-26T06:57:59+00:00",
+        "updated_at": "2018-10-02T03:47:45+00:00",
+        "metas": [],
+        "total_price": 212100
+      },
+      {
+        "id": 9101,
+        "cart_id": 1829,
+        "company_buyer_id": "14",
+        "company_seller_id": "19",
+        "company_product_id": 439,
+        "sku_id": "88",
+        "budget_id": "0",
+        "shipment_type": "1",
+        "qty": 2,
+        "base_price": "186363.64",
+        "price": 207000,
+        "discount": null,
+        "shipping_cost_id": "0",
+        "status": 0,
+        "created_at": "2018-09-26T08:26:06+00:00",
+        "updated_at": "2018-10-02T03:47:40+00:00",
+        "metas": [],
+        "total_price": 414000
+      }
+    ],
+    "shippingCostTotal": 0,
+    "subTotal": 626100
+  }

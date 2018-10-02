@@ -1,0 +1,75 @@
+Catalog detail
+
+Request URL :
+GET http://{MBIZ_API_HOST}/catalog/detail/quaker-instant-oatmeal-refill-1-karton-isi-12-pouch-800-gram-100-gram-198-211.html
+
+Request - Headers :
+    - Authorization : Bearer {JWT_TOKEN_FROM_MBIZ}
+    - Content-Type : application/json
+    
+Response :
+STATUS 200 OK
+
+{
+    "sku_no": "SKU000000001981",
+    "product_id": 198,
+    "title": "Quaker Instant Oatmeal Refill - 1 Karton Isi 12 Pouch @ 800 gram + 100 gram",
+    "description": "Lenovo K6 Power dipersenjatai dengan kamera utama 13 MP berkualitas premium. Dilengkapi dengan sensor Sony dan fitur PDAF yang membuat <em>auto-focus</em> jauh lebih cepat. Pengambilan gambar menjadi lebih mudah, cepat, dan kualitas gambarnya mengagumkan. Melalui mode <em>professional</em>, sekarang Anda dapat mengatur komposisi sempurna saat mengambil gambar seperti pengaturan <em>white balance</em>, ISO, dan lainnya. Kamera depan 8 MP memungkinkan Anda melakukan <em>selfie</em> bersama kerabat Anda dengan hasil yang jernih dan tajam",
+    "short_description": "Quaker Instant Oatmeal merupakan serelia yang dibuat dari bulir gandum.",
+    "sequence": 0,
+    "shipment_type": 1,
+    "weight": 0.9,
+    "height": 25,
+    "width": 10,
+    "length": 10,
+    "status": 99,
+    "created_by": 50,
+    "price_range": {
+        "min_price": {
+            "id": 1737,
+            "price": 43229
+        },
+        "max_price": null
+    },
+    "mainImage": "http://img.mbiz.co.id/skus_image/thumbs/343x343/2017/09/27/15d8ae3061719d972ccab2425ad9d36a.jpg",
+    "images": [{
+            "url": "http://img.mbiz.co.id/skus_image/thumbs/343x343/2017/09/27/15d8ae3061719d972ccab2425ad9d36a.jpg"
+        },
+        {
+            "url": "http://img.mbiz.co.id/skus_image/thumbs/343x343/2017/09/27/15d8ae3061719d972ccab2425234d36a.jpg"
+        },
+        {
+            "url": "http://img.mbiz.co.id/skus_image/thumbs/343x343/2017/09/27/15d8ae3061719gsdfccab2425ad9d36a.jpg"
+        }
+    ],
+    "sellers":[
+        {
+            "seller_id": 19,
+            "seller_name": "Store 75",
+            "stock": 394,
+            "country": "Indonesia",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Timur",
+            "district": "Pulo Gadung",
+            "prices": {
+                "price_1":"207.200",
+                "price_2":"208.300",
+                "price_3":"300.500"
+            }
+        },
+        {
+            "seller_id": 32,
+            "seller_name": "Store 168",
+            "stock": 34,
+            "country": "Indonesia",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Barat",
+            "district": "Kebon Jeruk",
+            "prices": {
+                "price_1":"205.200",
+                "price_2":"204.300",
+                "price_3":"300.500"
+            }
+        }
+    ]
+}

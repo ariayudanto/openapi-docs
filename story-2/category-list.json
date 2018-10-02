@@ -1,0 +1,33 @@
+Get Category List
+
+Request URL :
+GET http://{MBIZ_API_HOST}/catalog/categories
+
+Request - Headers :
+    - Authorization : Bearer {JWT_TOKEN_FROM_MBIZ}
+    - Content-Type : application/json
+
+Response :
+STATUS 200 OK
+[
+    {
+        "name": "Agrikultur dan Produk Segar",
+        "slug": "agrikultur-dan-produk-segar",
+    },
+    {
+        "name": "Pakaian, Tekstil dan Aksesoris",
+        "slug": "pakaian-tekstil-dan-aksesoris",
+    },
+    {
+        "name": "Elektronik dan Komunikasi",
+        "slug": "elektronik-dan-telekomunikasi",
+    },
+    {
+        "name": "Kesehatan dan Kecantikan",
+        "slug": "kesehatan-dan-kecantikan",
+    },
+    {
+        "name": "Peralatan Rumah, Penerangan dan Industri",
+        "slug": "peralatan-rumah-penerangan-dan-konstruksi",
+    }
+]

@@ -1,0 +1,26 @@
+Authenticate user and get JWT token to be used in session
+
+Request URL :
+POST http://{MBIZ_API_HOST}/authenticate
+
+Request-Headers :
+    - Content-Type : application/json
+
+Request Body :
+{
+  "username": "admin-user",
+  "password": "admin-password",
+  "company_id": "1234",
+  "ver": "1"
+}
+
+Response :
+STATUS 200 OK
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MDAyNjE2N30.62fdBhSzKyZx_az2UEgvgtbR1Ag9dKCOj1ztYO9Gzz8EUOFfGGkc-TqocMLvUNdXDU9GWgZ4QvRZyrRobA5ECA"
+}
+
+
+
+
+

@@ -1,0 +1,294 @@
+curl -X GET "http://api.mbiz.loc/companies/buyer/12/shipping-address?limit=20&page=1" -H  "accept: application/json"
+
+Response : 200 OK
+
+{
+    "items": [
+      {
+        "company_buyer_id": "12",
+        "id": 15,
+        "name": "Shipping - Area Jakarta",
+        "country_id": "1",
+        "province_id": "11",
+        "city_id": "159",
+        "district_id": "1926",
+        "zipcode": "12940",
+        "address": "Shipping - Karet Kuningan, Setiabudi, South Jakarta City, Jakarta 12940, Indonesia",
+        "phone": "021-123456",
+        "phone_prefix": null,
+        "sms_number": "0812-1111-2222",
+        "pic_name": "Yanto Buyer",
+        "pic_email": null,
+        "fax": "021-123456",
+        "avatar": "0",
+        "is_default": "1",
+        "status": 99,
+        "lat": "-6.217422",
+        "lng": "106.830178",
+        "created_at": "2017-09-14T06:17:04+00:00",
+        "updated_at": "2017-09-14T06:17:04+00:00",
+        "deleted_at": null,
+        "country": {
+          "id": 1,
+          "code": "INA",
+          "phone_prefix": "",
+          "name": "INDONESIA",
+          "rank": "0",
+          "status": 0,
+          "featured": "0",
+          "country": []
+        },
+        "province": {
+          "id": 11,
+          "country_id": "1",
+          "code": "31",
+          "name": "DKI JAKARTA",
+          "slug": "dki-jakarta",
+          "rank": "0",
+          "status": 99,
+          "country": {
+            "id": 1,
+            "code": "INA",
+            "phone_prefix": "",
+            "name": "INDONESIA",
+            "rank": "0",
+            "status": 0,
+            "featured": "0",
+            "country": []
+          }
+        },
+        "city": {
+          "id": 159,
+          "province_id": "11",
+          "name": "KOTA ADM. JAKARTA SELATAN",
+          "status": 99,
+          "country": []
+        },
+        "district": {
+          "id": 1926,
+          "city_id": "159",
+          "code": "31.74.02",
+          "name": "Setiabudi",
+          "status": 99,
+          "country": []
+        }
+      },
+      {
+        "company_buyer_id": "12",
+        "id": 22,
+        "name": "Area Jakarta",
+        "country_id": "1",
+        "province_id": "11",
+        "city_id": "159",
+        "district_id": "1926",
+        "zipcode": "12345",
+        "address": "Jl. Jakarta Selatan FFH",
+        "phone": "Yanto",
+        "phone_prefix": null,
+        "sms_number": "0812-1111-2222",
+        "pic_name": "Yanto",
+        "pic_email": null,
+        "fax": "021-123456",
+        "avatar": "0",
+        "is_default": "0",
+        "status": 97,
+        "lat": "-6.219569",
+        "lng": "106.832587",
+        "created_at": "2017-09-14T10:56:18+00:00",
+        "updated_at": "2017-09-14T11:16:05+00:00",
+        "deleted_at": "2017-09-14 11:16:05",
+        "country": {
+          "id": 1,
+          "code": "INA",
+          "phone_prefix": "",
+          "name": "INDONESIA",
+          "rank": "0",
+          "status": 0,
+          "featured": "0",
+          "country": []
+        },
+        "province": {
+          "id": 11,
+          "country_id": "1",
+          "code": "31",
+          "name": "DKI JAKARTA",
+          "slug": "dki-jakarta",
+          "rank": "0",
+          "status": 99,
+          "country": {
+            "id": 1,
+            "code": "INA",
+            "phone_prefix": "",
+            "name": "INDONESIA",
+            "rank": "0",
+            "status": 0,
+            "featured": "0",
+            "country": []
+          }
+        },
+        "city": {
+          "id": 159,
+          "province_id": "11",
+          "name": "KOTA ADM. JAKARTA SELATAN",
+          "status": 99,
+          "country": []
+        },
+        "district": {
+          "id": 1926,
+          "city_id": "159",
+          "code": "31.74.02",
+          "name": "Setiabudi",
+          "status": 99,
+          "country": []
+        }
+      },
+      {
+        "company_buyer_id": "12",
+        "id": 24,
+        "name": "Area Jakarta",
+        "country_id": "1",
+        "province_id": "11",
+        "city_id": "159",
+        "district_id": "1926",
+        "zipcode": "12345",
+        "address": "Shipping Address - null",
+        "phone": "Yanto",
+        "phone_prefix": null,
+        "sms_number": "0812-1111-2222",
+        "pic_name": "Yanto",
+        "pic_email": null,
+        "fax": "021-123456",
+        "avatar": "0",
+        "is_default": "0",
+        "status": 97,
+        "lat": "-6.219569",
+        "lng": "106.832587",
+        "created_at": "2017-09-14T11:09:39+00:00",
+        "updated_at": "2017-09-14T11:09:46+00:00",
+        "deleted_at": "2017-09-14 11:09:46",
+        "country": {
+          "id": 1,
+          "code": "INA",
+          "phone_prefix": "",
+          "name": "INDONESIA",
+          "rank": "0",
+          "status": 0,
+          "featured": "0",
+          "country": []
+        },
+        "province": {
+          "id": 11,
+          "country_id": "1",
+          "code": "31",
+          "name": "DKI JAKARTA",
+          "slug": "dki-jakarta",
+          "rank": "0",
+          "status": 99,
+          "country": {
+            "id": 1,
+            "code": "INA",
+            "phone_prefix": "",
+            "name": "INDONESIA",
+            "rank": "0",
+            "status": 0,
+            "featured": "0",
+            "country": []
+          }
+        },
+        "city": {
+          "id": 159,
+          "province_id": "11",
+          "name": "KOTA ADM. JAKARTA SELATAN",
+          "status": 99,
+          "country": []
+        },
+        "district": {
+          "id": 1926,
+          "city_id": "159",
+          "code": "31.74.02",
+          "name": "Setiabudi",
+          "status": 99,
+          "country": []
+        }
+      },
+      {
+        "company_buyer_id": "12",
+        "id": 25,
+        "name": "Area Jakarta",
+        "country_id": "1",
+        "province_id": "11",
+        "city_id": "159",
+        "district_id": "1926",
+        "zipcode": "12345",
+        "address": "Shipping Address Buyer - East Kuningan, Setiabudi, South Jakarta City, Jakarta 12950, Indonesia",
+        "phone": "Yanto",
+        "phone_prefix": null,
+        "sms_number": "0812-1111-2222",
+        "pic_name": "Yanto",
+        "pic_email": null,
+        "fax": "021-123456",
+        "avatar": "0",
+        "is_default": "0",
+        "status": 97,
+        "lat": "-6.229787",
+        "lng": "106.832587",
+        "created_at": "2017-09-14T11:14:50+00:00",
+        "updated_at": "2017-09-14T11:16:10+00:00",
+        "deleted_at": "2017-09-14 11:16:10",
+        "country": {
+          "id": 1,
+          "code": "INA",
+          "phone_prefix": "",
+          "name": "INDONESIA",
+          "rank": "0",
+          "status": 0,
+          "featured": "0",
+          "country": []
+        },
+        "province": {
+          "id": 11,
+          "country_id": "1",
+          "code": "31",
+          "name": "DKI JAKARTA",
+          "slug": "dki-jakarta",
+          "rank": "0",
+          "status": 99,
+          "country": {
+            "id": 1,
+            "code": "INA",
+            "phone_prefix": "",
+            "name": "INDONESIA",
+            "rank": "0",
+            "status": 0,
+            "featured": "0",
+            "country": []
+          }
+        },
+        "city": {
+          "id": 159,
+          "province_id": "11",
+          "name": "KOTA ADM. JAKARTA SELATAN",
+          "status": 99,
+          "country": []
+        },
+        "district": {
+          "id": 1926,
+          "city_id": "159",
+          "code": "31.74.02",
+          "name": "Setiabudi",
+          "status": 99,
+          "country": []
+        }
+      }
+    ],
+    "pagination": {
+      "first": 1,
+      "before": 1,
+      "current": 1,
+      "last": 1,
+      "next": 1,
+      "total_pages": 1,
+      "total_items": 4,
+      "limit": 20
+    }
+  }

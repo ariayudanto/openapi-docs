@@ -1,0 +1,19 @@
+curl -X POST "http://api.mbiz.loc/carts" -H  "accept: application/json" -H  "AccessToken: 50008fc2f580d8d6365311696163fbf9" -H  "App-Id: broodmother" -H  "User-Type: 1" -H  "User-Id: 1" -H  "content-type: application/x-www-form-urlencoded" -d "title=Combiophaer%20Cart&company_shipping_address_id=15&CartItems="
+
+Response 200 OK
+
+{
+    "id": 1947,
+    "title": "Combiophaer Cart",
+    "user_buyer_id": "335",
+    "company_buyer_id": null,
+    "company_shipping_address_id": "15",
+    "status": 0,
+    "created_at": "2018-10-02T03:42:17+00:00",
+    "updated_at": "2018-10-02T03:42:17+00:00"
+  }
+
+
+  NOTES :[
+      tambahkan cart item
+  ]

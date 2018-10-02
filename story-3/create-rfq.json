@@ -1,0 +1,20 @@
+curl -X POST "http://api.mbiz.loc/rfqs" -H  "accept: application/json" -H  "AccessToken: 50008fc2f580d8d6365311696163fbf9" -H  "content-type: application/x-www-form-urlencoded" -d "buyer_company_id=20&notes=PACKAGE%20PERFECTLY&reference_no=PO-2319-MP&status=1&items=121"
+
+Parameters :[
+    notes : "Package perfectly",
+    reference_no : "PO-2319-MP",
+    receiver_name : "John Doe",
+    receiver_phone : "0867717123",
+    shipping_cost_id : 14539,
+    cart_id : 123
+]
+
+Response 200 OK
+{
+    "message":"RFQ is being processed"
+}
+
+Response 400
+{
+    "message":"{error_message}"
+}
