@@ -44,6 +44,7 @@ Response : 200 OK
         "grand_total": "260100.00",
         "rounding": "1.00",
         "status": "2",
+        "status_label": "Accepted",
         "valid_date": null,
         "created_at": "2017-09-12 11:54:08",
         "updated_at": "2017-09-12 11:54:08",
@@ -90,7 +91,8 @@ Response : 200 OK
         "income_tax": "0.00",
         "grand_total": "367197.00",
         "rounding": "0.00",
-        "status": "6",
+        "status": "9",
+        "status_label": "On progress"
         "valid_date": "2017-09-15 18:54:57",
         "created_at": "2017-09-12 11:54:57",
         "updated_at": "2017-09-12 11:54:57",

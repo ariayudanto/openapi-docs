@@ -15,6 +15,7 @@ Response : 200 OK
     "notes": "2",
     "request_notes": null,
     "status": 6,
+    "status_label": "Accepted",
     "reason_note": null,
     "created_at": "2017-09-13T09:53:45+00:00",
     "reserved_stock_duration": null,

@@ -1,0 +1,38 @@
+curl -X POST "http://api.mbiz.loc/carts/add-item" 
+-H  "accept: application/json" 
+-H  "AccessToken: 50008fc2f580d8d6365311696163fbf9" 
+-H  "App-Id: broodmother" 
+-H  "User-Type: 1" 
+-H  "User-Id: 1" 
+-H  "content-type: application/x-www-form-urlencoded" 
+-d "cart_id=12&company_shipping_address_id=15&CartItems="
+
+Parameters :[
+    "cart_id":"120",
+    "companhy_seller_id" : "19",
+    "company_product_id" : "120",
+    "qty": 20,
+
+]
+
+Response : 200 OK
+
+{
+    "id": 9113,
+    "cart_id": "1189",
+    "company_buyer_id": null,
+    "company_seller_id": "20",
+    "company_product_id": "10",
+    "sku_id": null,
+    "budget_id": null,
+    "shipment_type": null,
+    "qty": "12",
+    "base_price": "100000",
+    "price": "10000",
+    "discount": null,
+    "shipping_cost_id": null,
+    "status": 0,
+    "created_at": "2018-10-03T07:56:41+00:00",
+    "updated_at": "2018-10-03T07:56:41+00:00",
+    "metas": []
+  }

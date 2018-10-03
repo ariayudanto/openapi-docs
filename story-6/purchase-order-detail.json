@@ -16,6 +16,7 @@ Response : 200 OK
     "notes": "tes keperluan",
     "term_of_payment": "30",
     "status": 1,
+    "status_label": "Waiting",
     "parent_id": "0",
     "sub_total": "966908.00",
     "shipping_cost": "20100.00",

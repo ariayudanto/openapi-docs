@@ -44,7 +44,8 @@ STATUS 200 OK
     ],
     "sellers":[
         {
-            "seller_id": 19,
+            "company_seller_id": 19,
+            "company_product_id": 120,
             "seller_name": "Store 75",
             "stock": 394,
             "country": "Indonesia",
@@ -58,7 +59,8 @@ STATUS 200 OK
             }
         },
         {
-            "seller_id": 32,
+            "company_seller_id": 32,
+            "company_product_id": 199,
             "seller_name": "Store 168",
             "stock": 34,
             "country": "Indonesia",
